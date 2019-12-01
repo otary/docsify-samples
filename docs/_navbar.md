@@ -1,2 +1,2 @@
 * 语言
-  * [中文](zh-cn/README.md)
+  * [中文](README.md)

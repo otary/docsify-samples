@@ -13,14 +13,17 @@
 <div id="app"></div>
 <script>
     window.$docsify = {
-        name: 'test title',
-        repo: '',
+        homepage: 'README.md',  // 自定义首页
         loadSidebar: true, // 定制侧边栏
         subMaxLevel: 3,
         loadNavbar: true,  // 定制导航栏
         autoHeader: true,
         logo: '/_media/icon.svg',
-        coverpage: true // 开启渲染封面
+        coverpage: true, // 开启渲染封面
+        search: {
+            placeholder: '搜索',
+            noData: '没有结果！'
+        }
     }
 </script>
 
